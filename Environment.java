@@ -36,7 +36,7 @@ public class Environment extends Game {
 		            * Math.pow(Math.sin(dlong / 2.0), 2);
 		    double c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
 		    double d = 6367 * c;
-		
+		    System.out.println(d);
 		    return d;
 	}
 	

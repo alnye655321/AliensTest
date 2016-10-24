@@ -27,7 +27,13 @@ public class Game {
    		currentTimeFlag = Instant.now();
    		return ChronoUnit.MILLIS.between(this.startTimeFlag,currentTimeFlag);
 	}
-   
 
+	public Boolean getActive() {
+		return active;
+	}
+
+	public void setActive(Boolean active) {
+		this.active = active;
+	} 
 
 }
