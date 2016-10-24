@@ -29,8 +29,8 @@ public class Alien extends Player {
 		return playerAlienLon;
 	}
 
-	public void setPlayerAlienLon(double playerAlienLon) {
-		this.playerAlienLon = playerAlienLon;
+	public void setPlayerAlienLon(double addVal) {
+		this.playerAlienLon = this.playerAlienLon + addVal;
 	}
 	
 

@@ -6,8 +6,7 @@ public class Environment extends Game {
    private static double minDenverLat = 39.653177;
    private static double maxDenverLon = -104.825191;
    private static double minDenverLon = -105.053244;
-   private double humanLon; private double humanLat;
-   private double alienLon; private double alienLat;
+
 
    // environment constructor
    Environment(String type, int id, int timeLimit, String name, int players) {
