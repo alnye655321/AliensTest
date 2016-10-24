@@ -5,8 +5,8 @@ public class Human extends Player {
    private double lon;
 
    // human constructor
-   Human(String type, int id, String name, String tagline) {
-   	super(id, name, tagline);
+   Human(String type, int id, String name, String tagline, double playerStartLat, double playerStartLon) {
+   	super(id, name, tagline, playerStartLat, playerStartLon);
       this.type = type;
    }
    
